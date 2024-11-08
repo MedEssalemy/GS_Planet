@@ -8,7 +8,8 @@ import {
   TextField,
 } from '@mui/material'
 import { DateTimePicker, LocalizationProvider } from '@mui/x-date-pickers'
-import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns'
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFnsV3'
+
 
 const ReminderModal = ({ isOpen, onClose, onSetReminder }) => {
   const [selectedDateTime, setSelectedDateTime] = useState(null)

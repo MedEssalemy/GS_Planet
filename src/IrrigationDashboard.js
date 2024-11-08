@@ -17,7 +17,7 @@ import { IconButton } from '@mui/material'
 import DashboardContent from './DashboardContent'
 import Configs from './pages/Configs'
 import Scheduling from './pages/Scheduling'
-import Guides from './pages/Guides'
+import Guides from './pages/Guide'
 import Notepad from './pages/Notepad'
 import Community from './pages/Community'
 
